@@ -446,11 +446,10 @@ header {
 }
 .floating-mnu a a:hover {
   font-size: 1.3em;
-  transition: 1.5s;
 }
 .floating-mnu a:hover {
   font-size: 1.8em;
-  color: #3500D3;
+  transition: font size 1.5s;
   cursor: pointer;
   text-decoration: none;
 }

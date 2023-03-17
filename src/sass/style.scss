@@ -381,14 +381,14 @@ header {
 
         a:hover {
             font-size: 1.3em;
-            transition: width 1.5s;
+
         }
 
         a:active {}
 
         &:hover {
             font-size: 1.8em;
-            color: $primary-col-4;
+            transition: font size 1.5s;
 
             cursor: pointer;
             text-decoration: none;
