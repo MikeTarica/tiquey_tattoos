@@ -446,7 +446,7 @@ header {
 }
 .floating-mnu a a:hover {
   font-size: 1.3em;
-  transition: width 2s, height 4s;
+  transition: width 1.5s;
 }
 .floating-mnu a:hover {
   font-size: 1.8em;
