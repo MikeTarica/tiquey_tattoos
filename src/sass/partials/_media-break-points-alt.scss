@@ -1,0 +1,149 @@
+$small: 700px;
+$medium: 900px;
+$large: 1200px;
+$x-large: 2500px;
+
+// Tablet
+$t-small: 400px;
+$t-medium: 500px;
+$t-large: 700px;
+
+// mobile
+$m-small: 380px;
+$m-medium: 590px;
+$m-large: 990px;
+
+// mobile
+$mtwo-small: 500px;
+$mtwo-medium: 600px;
+$mtwo-large: 1000px;
+
+// Mobile ultra
+@media screen and (min-width: $m-small) and (max-width: $m-medium) {
+body {
+ 
+    margin: 5px 1px 11px 1px !important;
+}
+.banner {
+    padding: 0px 12px 0 12px;
+}
+    h1 {
+        font-size: 36px;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    h2 {
+        font-size: 28px;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    h3 {
+        font-size: 24px;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    h5 {
+        font-size: 17px;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    h6 {
+        font-size: 11px;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    p {
+        font-size: 18px;
+        padding-bottom: 8px;
+        padding-top: 50px;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    quote {
+        font-size: 26px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .flex-area-alignment {
+        padding-bottom: 31px;
+        display: flex;
+        flex-direction: column;
+
+        .banner-area-first-about {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding-bottom: 20px;
+        }
+    }
+
+    .image-layer {
+        position: relative;
+        top: 0px;
+        z-index: -1;
+        left: 0px;
+
+    }
+
+    .flex-area-alignment {
+        padding: 0px 12px 0 12px;
+        .banner-area-first-about {
+            height: auto;
+            width: 100%;
+            padding: 0px !important;
+            padding: 64px 3px 4px 0px !important;
+        }
+    }
+
+    .anchors {
+        padding-bottom: 66px;
+        margin-top: -26% !important;
+    }
+
+    // ANCHOR Floating Menu
+
+    .floating-mnu {
+        font-size: 7px;
+        height: 1px !important;
+        a {
+            font-size: 0.2em;
+            display: block;
+
+
+            a:hover {
+                font-size: 0.1em;
+
+            }
+        }
+
+    }
+}

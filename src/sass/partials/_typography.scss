@@ -1,0 +1,84 @@
+/* Fonts */
+$font-sizing-paragraphs: 1.2rem;
+$font-stack: Helvetica,
+sans-serif,
+arial;
+$font-color-default: white;
+$fontcolor-hover: red;
+
+
+body {}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+qoute,
+li,
+ul,
+ol,
+a,
+button {
+
+    color: $font-color-default;
+    font-family: $font-stack;
+
+}
+
+h1 {
+    font-size: 51px;
+    padding-bottom: 1.8%;
+    line-height: 1.3;
+    width: 100%;
+
+}
+
+h2 {
+    font-size: 43px;
+    padding-bottom: 20px;
+    line-height: 1.0;
+    width: 100%;
+}
+
+h3 {
+    font-size: 36px;
+    padding-bottom: 20px;
+    line-height: 0.8;
+    width: 100%;
+}
+
+h4 {
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+h5 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+h6 {
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+p {
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
+qoute {
+    font-size: 26px;
+    padding-bottom: 13px;
+}
+
+.anchors {
+    a {
+        font-size: 25px;
+    }
+
+
+}

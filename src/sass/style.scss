@@ -1,0 +1,404 @@
+@import './partials/typography';
+@import './partials/media-break-points-alt';
+
+
+/* color brands */
+// primary colors
+$primary-col-1: #0C0032;
+$primary-col-2: #190061;
+$primary-col-3: #240090;
+$primary-col-4: #3500D3;
+$primary-col-5: #282828;
+// secondary color
+$secondary-col-1: #1a1a1d;
+$secondary-col-2: #4e4e50;
+$secondary-col-3: #6f2232;
+$secondary-col-4: #950740;
+$secondary-col-5: #C3073F;
+// article page colors
+$page-col-scheme-1: #000000;
+$page-col-scheme-2: #1c171e;
+$page-col-scheme-3: #c6bfc6;
+$page-col-scheme-4: #7a6d76;
+$page-col-scheme-5: #baa7ad;
+
+// banner color scheme
+$banner-col-scheme-1: #000000;
+$banner-col-scheme-2: #fcfcfc;
+$banner-col-scheme-3: #9d00ff;
+$banner-col-scheme-4: #7a6d76;
+$banner-col-scheme-5: #baa7ad;
+// GENTIC FONT COLOR
+$page-text-white: #f1ecec;
+
+/* Gradiants  */
+$theme-1-gradiant-main: linear-gradient(to right, rgba(2, 0, 36, 0) 0%, #c3073f87 25% #1c171e 56%, #c3073f87 100%);
+$theme-1-gradiant-main-sub: linear-gradient(to right, rgba(2, 0, 36, 0) 0%, rgba(255, 255, 255, 0.898) 56%, rgba(255, 42, 0, 0.513) 100%);
+$gradaint-theme-bg:#baa7ad2e ;
+$theme-1-banner-overlay: linear-gradient(rgb(51 51 51) 0%, rgb(255 255 255 / 37%) 56%, rgb(255 42 0 / 20%) 100%);
+
+
+$font-stack: Helvetica,
+sans-serif,
+arial;
+
+:root {}
+
+// ANCHOR main body general 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    // background-color: $primary-col-4;
+   
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: inherit;
+    }
+
+    li {
+        display: flex;
+    }
+
+    a {
+        display: flex;
+        text-decoration: none;
+    }
+}
+
+
+
+
+body {
+    background-color: $secondary-col-2;
+    margin: -1px 13px 0px 20px;
+}
+
+button {
+    width: 4em;
+    height: 8ex;
+    border-radius: 10px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+
+    :hover {
+        color: $banner-col-scheme-3;
+        font-weight: bold;
+    }
+}
+.para-area {
+    font-weight: bold;
+    /* incorrect spelling of the color property */
+    font-size: 160%;
+
+    span {
+        background-color: $banner-col-scheme-3;
+    }
+}
+
+.button-nav {
+    font-family: "helvetica neue",
+        helvetica,
+        sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 200, 0.6);
+    background: rgba(0, 0, 200, 0.3);
+    color: rgba(0, 0, 200, 0.6);
+    box-shadow: 1px 1px 2px rgba(0, 0, 200, 0.4);
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a {
+    transition: background-color .7s;
+    text-decoration: none;
+
+
+    :hover {
+
+        text-decoration: none;
+        background-color: $primary-col-4;
+    }
+}
+
+
+// ANCHOR Navbar container
+.navbar {
+    overflow: hidden;
+    font-family: Helvetica, sans-serif, arial;
+    position: absolute;
+    left: 14px;
+    top: 41px;
+}
+
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    background-color: #0000002d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+
+}
+
+/* ANCHOR --Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+}
+
+/* ANCHOR Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: flex;
+    $rounded-corners: false;
+
+    .button {
+        border: 1px solid black;
+        border-raduis: if($rounded-corners, 5px, null);
+    }
+
+    // Back ground area 
+
+    .banner-bg-main {
+
+        padding: 0px 7px 27px 10px;
+        border-top-left-radius: 7%;
+        border-top-right-radius: 33%;
+        border-bottom-right-radius: 13%;
+        border-bottom-left-radius: 17%;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: center;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six {
+        flex: 1 auto;
+        padding-bottom: 1px;
+    }
+
+    .nested {
+        display: contents;
+    }
+
+}
+
+.flex-area-alignment {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding-bottom: 36px;
+
+    .banner-area-first-about {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 22px;
+    }
+
+    .banner-area-second-art {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 22px;
+
+    }
+}
+
+// ANCHOR Banner area with image
+.background-color {
+    background-color: $banner-col-scheme-5;
+    .flex-area-alignment {
+        padding-left: 2px;
+        padding-right: 2px;
+    
+        .banner-area-first-about {
+            width: 100%;
+            height: auto;
+    
+            img {
+                margin-left: 4%;
+                position: relative;
+                width: 74%;
+                height: auto;
+                z-index: -1;
+            }
+
+        }
+    
+        .banner-area-second-art {
+            width: 100%;
+            height: auto;
+    
+            img {
+                margin-left: 4%;
+                position: relative;
+                width: 74%;
+                height: auto;
+                z-index: -1;
+            }
+        }
+    
+
+    
+    }
+}
+.head-one, .head-two, .head-three, .head-four, .head-five, .head-six, .head-seven {
+    position: absolute;
+    margin: 4px 9px 6px 12px;
+}
+.para-over-lap {
+    position: relative;
+    top: -91px;
+    left: 9px;
+    z-index: 11;
+    padding: 4px 8px 0px 4px;
+}
+.hero-title {
+    padding-bottom: 3%;
+}
+
+
+
+// ANCHOR  banner
+header {
+    color: $page-text-white;
+    // overflow: hidden;
+    background-image: src("./src/images/DSC_0356.jpg");
+    background: $theme-1-banner-overlay;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+}
+
+.container {
+    position: absolute;
+}
+
+.image-layer {
+    position: relative;
+    top: 0px;
+    z-index: -1;
+    left: 0px;
+}
+
+// ANCHOR Floating Menu
+
+.floating-mnu {
+    font-family: sans-serif;
+    background-color: rgba(186, 167, 173, 0.1803921569);
+    padding-top: 1px;
+    margin-top: -5px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    -webkit-align-items: center;
+
+    a {
+        font-size: 1.5em;
+        display: block;
+        margin: 8px 1.5em;
+
+        a:hover {
+            font-size: 1.3em;
+            color: $banner-col-scheme-3;
+        }
+        a:active {
+        }
+        &:hover {
+            font-size: 1.8em;
+            color: $primary-col-4;
+            
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+    
+}
+// ANCHOR Footer area
+.ftr-era-body {
+    background-color: $primary-col-2;
+    .contact-details {
+        position: absolute;
+        left: 56px;
+    }
+
+    .img-logo {
+        position: absolute;
+        left: 591px;
+    }
+    .links-contacts {
+        position: absolute;
+        left: 317px;
+    }
+
+}
