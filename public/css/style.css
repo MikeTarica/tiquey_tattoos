@@ -383,7 +383,13 @@ a :hover {
   z-index: -1;
 }
 
-.head-one, .head-two, .head-three, .head-four, .head-five, .head-six, .head-seven {
+.head-one,
+.head-two,
+.head-three,
+.head-four,
+.head-five,
+.head-six,
+.head-seven {
   position: absolute;
   margin: 4px 9px 6px 12px;
 }
@@ -440,7 +446,7 @@ header {
 }
 .floating-mnu a a:hover {
   font-size: 1.3em;
-  color: #9d00ff;
+  transition: width 2s, height 4s;
 }
 .floating-mnu a:hover {
   font-size: 1.8em;
