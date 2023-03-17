@@ -449,13 +449,13 @@ header {
 }
 .floating-mnu a:hover {
   font-size: 1.8em;
-  transition: font-size 3.5s;
+  transition: font-size 1.2s;
   cursor: pointer;
   text-decoration: none;
 }
 
 .ftr-era-body {
-  background-color: #190061;
+  background-color: #f1ecec;
 }
 .ftr-era-body .contact-details {
   position: absolute;

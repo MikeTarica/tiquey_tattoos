@@ -388,7 +388,7 @@ header {
 
         &:hover {
             font-size: 1.8em;
-            transition: font-size 3.5s;
+            transition: font-size 1.2s;
 
             cursor: pointer;
             text-decoration: none;
@@ -399,7 +399,7 @@ header {
 
 // ANCHOR Footer area
 .ftr-era-body {
-    background-color: $primary-col-2;
+    background-color: $page-text-white;
 
     .contact-details {
         position: absolute;
