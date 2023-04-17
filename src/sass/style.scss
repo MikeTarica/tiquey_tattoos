@@ -475,13 +475,13 @@ header {
 /* The circles or bullets and indicators */
 .dots {
     cursor: pointer;
-    height: 16px;
-    width: 16px;
+    height: 60px;
+    width: 60px;
     margin: 0 3px;
-    background-color: #acc;
+    // background-color: #acc;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.5s ease;
+    transition: background-color 2s ease;
 }
 
 .enable,
@@ -489,17 +489,21 @@ header {
     background-color: #717161;
 }
 
+.dots::selection {
+    background-color: white;
+}
+
 /* Faint animation */
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.4s;
+    -webkit-animation-duration: 1s;
     animation-name: fade;
-    animation-duration: 1.4s;
+    animation-duration: 1s;
 }
 
 @-webkit-keyframes fade {
     from {
-        opacity: .9
+        opacity: 1, 3
     }
 
     to {
@@ -509,7 +513,7 @@ header {
 
 @keyframes fade {
     from {
-        opacity: .9
+        opacity: 1, 3
     }
 
     to {
