@@ -20,13 +20,15 @@ $mtwo-large: 1000px;
 
 // Mobile ultra
 @media screen and (min-width: $m-small) and (max-width: $m-medium) {
-body {
- 
-    margin: 5px 1px 11px 1px !important;
-}
-.banner {
-    padding: 0px 12px 0 12px;
-}
+    body {
+
+        margin: 5px 1px 11px 1px !important;
+    }
+
+    .banner {
+        padding: 0px 12px 0 12px;
+    }
+
     h1 {
         font-size: 36px;
 
@@ -78,7 +80,6 @@ body {
     p {
         font-size: 18px;
         padding-bottom: 8px;
-        padding-top: 50px;
 
         &:hover {
             color: white;
@@ -116,6 +117,7 @@ body {
 
     .flex-area-alignment {
         padding: 0px 12px 0 12px;
+
         .banner-area-first-about {
             height: auto;
             width: 100%;
@@ -134,6 +136,7 @@ body {
     .floating-mnu {
         font-size: 7px;
         height: 1px !important;
+
         a {
             font-size: 0.2em;
             display: block;

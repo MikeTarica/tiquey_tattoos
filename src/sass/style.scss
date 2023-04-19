@@ -136,9 +136,7 @@ a {
 .navbar {
     overflow: hidden;
     font-family: Helvetica, sans-serif, arial;
-    position: absolute;
-    left: 14px;
-    top: 41px;
+    padding: 1px 13px 0px 18px;
 }
 
 /* Links inside the navbar */
@@ -258,7 +256,6 @@ a {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        padding: 22px;
 
     }
 }
@@ -323,7 +320,8 @@ a {
 }
 
 .hero-title {
-    padding-bottom: 3%;
+    /*  padding-bottom: 3%; */
+    padding: 8px 7px 0px 21px;
 }
 
 
