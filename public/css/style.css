@@ -549,10 +549,6 @@ header {
   background-color: #717161;
 }
 
-.dots::selection {
-  background-color: white;
-}
-
 /* Faint animation */
 .fade {
   -webkit-animation-name: fade;

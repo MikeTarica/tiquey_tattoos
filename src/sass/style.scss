@@ -489,9 +489,6 @@ header {
     background-color: #717161;
 }
 
-.dots::selection {
-    background-color: white;
-}
 
 /* Faint animation */
 .fade {
@@ -502,6 +499,7 @@ header {
 }
 
 @-webkit-keyframes fade {
+
     from {
         opacity: 1, 3
     }
@@ -512,6 +510,8 @@ header {
 }
 
 @keyframes fade {
+
+
     from {
         opacity: 1, 3
     }
