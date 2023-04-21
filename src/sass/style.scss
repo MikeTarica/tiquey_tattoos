@@ -249,7 +249,6 @@ a {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        padding: 22px;
     }
 
     .banner-area-second-art {
@@ -517,4 +516,10 @@ header {
     to {
         opacity: 2
     }
+}
+
+// body content 
+
+.header-area {
+    padding: 1px 3px 6px 34px;
 }
