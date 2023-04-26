@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tiqeuy Tattoos | Portfolio</title>
     <meta name="description" content="Tiqeuy Tattoos" />
     <meta name="Mike Tarica" content="SitePoint" />
     <meta property="og:" content="A Basic HTML5 Template" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/" />
+    <meta
+      property="og:url"
+      content=""
+    />
     <meta property="og:description" content="Tiqeuy Tattoos" />
     <meta property="og:image" content="image.png" />
     <link rel="icon" href="" />
@@ -16,11 +19,12 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="stylesheet" href="./public/css/style.css" />
   </head>
-
+  <!-- #endregion -->
   <body>
     <div>
       <nav>
-        <div class="banner banner-bg-main">
+        <!-- #start of banner -->
+        <div class="banner banner-bg-main button-nav">
           <h1 class="hero-title">Tiqeuy <span>Tattoos</span></h1>
           <div>
             <div class="align-menu navbar container-">
@@ -52,7 +56,7 @@
           </div>
         </div>
       </nav>
-
+      <!-- #end of navigation -->
       <header>
         <div class="image-layer">
           <img
@@ -104,53 +108,52 @@
 
       <!--first banner about the studio-->
       <!-- Slideshow container -->
-<div class="slideshow-container fade">
+      <div class="slideshow-container fade">
+        <!-- Full images with numbers and message Info -->
+        <div class="Containers">
+          <div class="MessageInfo"></div>
+          <img src="./src/images/entry-1.jpg" style="width: 100%" />
+          <div class="Info"><p>test captian 1</p></div>
+        </div>
 
-  <!-- Full images with numbers and message Info -->
-  <div class="Containers">
-    <div class="MessageInfo"></div>
-    <img src="./src/images/entry-1.jpg" style="width:100%">
-    <div class="Info"><p>test captian 1</p></div>
-  </div>
+        <div class="Containers">
+          <div class="MessageInfo"></div>
+          <img src="./src/images/entry-2.jpg" style="width: 100%" />
+          <div class="Info"><p>test captian 2</p></div>
+        </div>
 
-  <div class="Containers">
-    <div class="MessageInfo"></div>
-    <img src="./src/images/entry-2.jpg" style="width:100%">
-    <div class="Info"><p>test captian 2</p></div>
-  </div>
+        <div class="Containers">
+          <div class="MessageInfo"></div>
+          <img src="./src/images/entry-1.jpg" style="width: 100%" />
+          <div class="Info"><p>test captian 3</p></div>
+        </div>
 
-  <div class="Containers">
-    <div class="MessageInfo"></div>
-    <img src="./src/images/entry-1.jpg" style="width:100%">
-    <div class="Info"><p>test captian 3</p></div>
-  </div>
+        <div class="Containers">
+          <div class="MessageInfo"></div>
+          <img src="./src/images/entry-2.jpg" style="width: 100%" />
+          <div class="Info"><p>test captian 4</p></div>
+        </div>
 
-  <div class="Containers">
-    <div class="MessageInfo"></div>
-    <img src="./src/images/entry-2.jpg" style="width:100%">
-    <div class="Info"><p>test captian 4</p></div>
-  </div>
+        <div class="Containers">
+          <div class="MessageInfo"></div>
+          <img src="./src/images/entry-1.jpg" style="width: 100%" />
+          <div class="Info"><p>test captian 5</p></div>
+        </div>
 
-  <div class="Containers">
-    <div class="MessageInfo"></div>
-    <img src="./src/images/entry-1.jpg" style="width:100%">
-    <div class="Info"><p>test captian 5</p></div>
-  </div>
+        <div class="Containers">
+          <div class="MessageInfo"></div>
+          <img src="./src/images/entry-2.jpg" style="width: 100%" />
+          <div class="Info"><p>test captian 6</p></div>
+        </div>
 
-  <div class="Containers">
-    <div class="MessageInfo"></div>
-    <img src="./src/images/entry-2.jpg" style="width:100%">
-    <div class="Info"><p>test captian 6</p></div>
-  </div>
+        <!-- Back and forward buttons -->
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
 
-  <!-- Back and forward buttons -->
-  <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="forward" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The circles/dots -->
-<!-- <div style="text-align:center">
+      <!-- The circles/dots -->
+      <!-- <div style="text-align:center">
   <span class="dots" onclick="currentSlide(1)"><img src="./src/images/entry-1.jpg" alt=""></span>
   <span class="dots" onclick="currentSlide(2)"><img src="./src/images/entry-2.jpg" alt=""></span>
   <span class="dots" onclick="currentSlide(3)"><img src="./src/images/entry-1.jpg" alt=""></span>
@@ -158,8 +161,6 @@
   <span class="dots" onclick="currentSlide(5)"><img src="./src/images/entry-1.jpg" alt=""></span>
   <span class="dots" onclick="currentSlide(6)"><img src="./src/images/entry-2.jpg" alt=""></span>
 </div> -->
-
-
     </div>
     <div class="flex-area-alignment">
       <!--ANCHOR first banner about the studio-->
