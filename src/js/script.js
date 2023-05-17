@@ -48,30 +48,70 @@ function fun() {
     "The function fun() is triggered !";
 }
 
+// switch (randomNumber) {
+//   case 0:
+//     eightBall = "It is certain";
+//     break;
+//   case 1:
+//     eightBall = "It is decidedly so";
+//     break;
+//   case 3:
+//     eightBall = "Reply hazy try again";
+//     break;
+//   case 4:
+//     eightBall = "Cannot predict now";
+//     break;
+//   case 5:
+//     eightBall = "My sources say no";
+//     break;
+//   case 6:
+//     eightBall = "Outlook not so good";
+//     break;
+//   case 7:
+//     eightBall = "Signs point to yes";
+//     break;
+//   case 8:
+//     eightBall = "Signs point to yes but a maybe!";
+//     break;
+// }
+// console.log(`The Magic 8 Ball says ${eightBall}.`);
+
 switch (randomNumber) {
   case 0:
-    eightBall = "It is certain";
+    eightBallName = "Mike";
     break;
   case 1:
-    eightBall = "It is decidedly so";
+    eightBallName = "Leana";
     break;
   case 3:
-    eightBall = "Reply hazy try again";
+    eightBallName = "Hellfire";
     break;
   case 4:
-    eightBall = "Cannot predict now";
+    eightBallName = "Alu";
     break;
   case 5:
-    eightBall = "My sources say no";
+    eightBallName = "Tammy";
     break;
   case 6:
-    eightBall = "Outlook not so good";
+    eightBallName = "Bainca";
     break;
   case 7:
-    eightBall = "Signs point to yes";
+    eightBallName = "luke";
+    break;
+  case 8:
+    eightBallName = "Diana";
     break;
 }
-console.log(`The Magic 8 Ball says ${eightBall}.`);
+switch (randomNumber) {
+  case 0:
+    childGender = "male";
+    break;
+  case 1:
+    childGender = "female";
+    break;
+}
+console.log(`Random name for a child ${eightBallName}.`);
+console.log(`and sex of the child is ${childGender}` );
 
 let raceNumber = Math.floor(Math.random() * 1000);
 let registeredEarly = false;
@@ -92,22 +132,6 @@ if (registeredEarly && age > 18) {
   console.log(`Please apprach the registration desk, thanks!`);
 }
 
-function getReminder() {
-  console.log("Water the plants.");
-}
-
-function greetInSpanish() {
-  console.log("Buenas tardes.");
-}
-
-// function declations
-function getReminder() {
-  console.log("Water the plants.");
-}
-
-function greetInSpanish() {
-  console.log("Buenas tardes.");
-}
  // working on name and surname form submission
 function myFunction() {
   document.getElementById("frm1").submit();
