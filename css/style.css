@@ -167,6 +167,7 @@ qoute {
 /*secondary color*/
 /*article page colors*/
 /*banner color scheme*/
+/*low-opc*/
 /*GENTIC FONT COLOR*/
 /* Gradiants  */
 /*fonts*/
@@ -183,7 +184,7 @@ img {
 }
 
 nav {
-  background-image: linear-gradient(to bottom, rgba(2, 0, 36, 0) 0%, rgba(255, 255, 255, 0.898) 56%, rgba(255, 42, 0, 0.513) 100%);
+  background-color: rgba(157, 164, 188, 0.3529411765);
 }
 nav ul {
   margin: 0;
@@ -228,11 +229,8 @@ button :hover {
 .button-nav {
   font-family: "helvetica neue", helvetica, sans-serif;
   letter-spacing: 1px;
-  text-transform: uppercase;
-  text-align: center;
   border-radius: 10px;
   padding: 3px 10px;
-  display: inline-block;
   cursor: pointer;
 }
 
@@ -249,9 +247,11 @@ a :hover {
   overflow: hidden;
   font-family: Helvetica, sans-serif, arial;
   padding: 1px 13px 0px 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
-
-/* Links inside the navbar */
 .navbar a {
   float: left;
   font-size: 16px;
@@ -260,15 +260,15 @@ a :hover {
   text-decoration: none;
 }
 
-/* The dropdown container */
-.dropdown {
+/* Links inside the navbar */
+.navbar .dropdown {
   float: left;
   overflow: hidden;
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 32px;
   border: none;
   outline: none;
   color: white;
@@ -342,16 +342,19 @@ a :hover {
   justify-content: space-evenly;
   align-items: stretch;
   padding-bottom: 36px;
+  margin: 67px;
 }
 .flex-area-alignment .banner-area-first-about {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  margin: 4%;
 }
 .flex-area-alignment .banner-area-second-art {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  margin: 4%;
 }
 
 .background-color {
@@ -576,6 +579,9 @@ header {
 }
 .header-area {
   padding: 1px 3px 6px 36px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
