@@ -348,17 +348,19 @@ a :hover {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: 4%;
+  margin: 1%;
   background-image: linear-gradient(to bottom right, rgba(255, 244, 164, 0.573) 0%, rgba(255, 232, 57, 0.686) 50%, rgba(232, 125, 2, 0.824) 100%);
   padding: 1px 13px 5px 13px;
+  border-radius: 11px;
 }
 .flex-area-alignment .banner-area-second-art {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: 4%;
+  margin: 1%;
   background-image: linear-gradient(to bottom right, rgba(255, 244, 164, 0.573) 0%, rgba(255, 232, 57, 0.686) 50%, rgba(232, 125, 2, 0.824) 100%);
-  padding: 5px 13px 5px 13px;
+  padding: 1px 13px 5px 13px;
+  border-radius: 11px;
 }
 
 .slideshow-container {
