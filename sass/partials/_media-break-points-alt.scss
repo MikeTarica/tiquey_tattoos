@@ -116,13 +116,14 @@ $mtwo-large: 1000px;
     }
 
     .flex-area-alignment {
-        padding: 0px 12px 0 12px;
+        margin: 0px !important;
 
         .banner-area-first-about {
             height: auto;
             width: 100%;
-            padding: 0px !important;
-            padding: 64px 3px 4px 0px !important;
+            /* padding: 0px !important; */
+            padding: 4px 8px 7px 8px !important;
+
         }
     }
 
