@@ -135,8 +135,11 @@ $mtwo-large: 1000px;
     // ANCHOR Floating Menu
 
     .floating-mnu {
-        font-size: 7px;
+        font-size: 7px !important;
         height: 1px !important;
+        margin-top: -5px !important;
+        text-align: center !important;
+
 
         a {
             font-size: 0.2em;
@@ -150,4 +153,8 @@ $mtwo-large: 1000px;
         }
 
     }
+}
+
+.navbar {
+    font-size: 20%;
 }

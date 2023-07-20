@@ -153,8 +153,10 @@ qoute {
     margin-top: -26% !important;
   }
   .floating-mnu {
-    font-size: 7px;
+    font-size: 7px !important;
     height: 1px !important;
+    margin-top: -5px !important;
+    text-align: center !important;
   }
   .floating-mnu a {
     font-size: 0.2em;
@@ -164,6 +166,10 @@ qoute {
     font-size: 0.1em;
   }
 }
+.navbar {
+  font-size: 20%;
+}
+
 /*secondary color*/
 /*article page colors*/
 /*banner color scheme*/
@@ -248,9 +254,10 @@ a :hover {
   font-family: Helvetica, sans-serif, arial;
   padding: 1px 13px 0px 18px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: nowrap;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: flex-start;
 }
 .navbar a {
   float: left;
