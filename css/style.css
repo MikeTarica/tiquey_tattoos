@@ -617,14 +617,19 @@ header {
 .form-sub {
   background-color: #1c171e;
   margin: 13px;
+  padding: 10px;
+}
+.form-sub .ideal-time-month,
+.form-sub .email-name {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: baseline;
 }
 .form-sub input {
   margin: 10px;
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  padding: 5px 138px 6px 37px;
 }
 
 /*# sourceMappingURL=style.css.map */
