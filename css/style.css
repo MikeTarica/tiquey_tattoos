@@ -447,7 +447,6 @@ header {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 2%;
 }
 
 .container {
@@ -620,7 +619,9 @@ header {
   padding: 10px;
 }
 .form-sub .ideal-time-month,
-.form-sub .email-name {
+.form-sub .email-name,
+.form-sub .file-ref,
+.form-sub .submit-reset {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
