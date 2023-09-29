@@ -24,7 +24,7 @@ function SlideShow(n) {
     slidePosition = 1;
   }
   slides[slidePosition - 1].style.display = "block";
-  setTimeout(SlideShow, 3500); // Change image every 7 seconds
+  setTimeout(SlideShow, 8000); // Change image every 7 seconds
   console.log(SlideShow);
 }
 
