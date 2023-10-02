@@ -491,21 +491,9 @@ header {
 }
 
 .ftr-era-body {
-  background-color: #f1ecec;
+  padding: 7px 6px 8px 8px;
+  margin: 3px 14px 3px 15px;
 }
-.ftr-era-body .contact-details {
-  position: absolute;
-  left: 56px;
-}
-.ftr-era-body .img-logo {
-  position: absolute;
-  left: 591px;
-}
-.ftr-era-body .links-contacts {
-  position: absolute;
-  left: 317px;
-}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -614,9 +602,14 @@ header {
 }
 
 .form-sub {
-  background-color: #1c171e;
   margin: 13px;
-  padding: 10px;
+  padding: 10px 14px 9px 13px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 .form-sub .ideal-time-month,
 .form-sub .email-name,
@@ -627,10 +620,7 @@ header {
   flex-wrap: nowrap;
   justify-content: flex-end;
   align-items: baseline;
-}
-.form-sub input {
-  margin: 10px;
-  padding: 5px 138px 6px 37px;
+  width: 21%;
 }
 
 /*# sourceMappingURL=style.css.map */
