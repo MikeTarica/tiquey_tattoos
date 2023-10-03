@@ -184,6 +184,9 @@ input {
   font-size: 20%;
 }
 
+.form-body {
+  padding: 8px 10px 8px 12px;
+}
 /*secondary color*/
 /*article page colors*/
 /*banner color scheme*/
@@ -601,6 +604,10 @@ header {
   justify-content: center;
 }
 
+.head-cont-us {
+  margin: 8px 10px 8px 12px;
+}
+
 .form-sub {
   margin: 13px;
   padding: 10px 14px 9px 13px;
@@ -611,16 +618,8 @@ header {
   justify-content: space-around;
   align-items: flex-start;
 }
-.form-sub .ideal-time-month,
-.form-sub .email-name,
-.form-sub .file-ref,
-.form-sub .submit-reset {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-items: baseline;
-  width: 21%;
+.form-sub .form-body {
+  padding: 8px 10px 8px 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

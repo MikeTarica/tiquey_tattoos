@@ -168,3 +168,13 @@ $mtwo-large: 1000px;
 .navbar {
     font-size: 20%;
 }
+
+// Form
+.form-body {
+    padding: 8px 10px 8px 12px;
+
+    .form-sub .ideal-time-month,
+    .form-sub .email-name,
+    .form-sub .file-ref,
+    .form-sub .submit-reset {}
+}
