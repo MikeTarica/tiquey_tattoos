@@ -130,9 +130,7 @@ $mtwo-large: 1000px;
 
         .banner-area-first-about {
             height: auto;
-            width: 100%;
-            /* padding: 0px !important; */
-            padding: 4px 8px 7px 8px !important;
+
 
         }
     }
@@ -177,4 +175,9 @@ $mtwo-large: 1000px;
     .form-sub .email-name,
     .form-sub .file-ref,
     .form-sub .submit-reset {}
+}
+
+.slideshow-container {
+
+    width: 90%;
 }

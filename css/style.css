@@ -158,9 +158,6 @@ input {
   }
   .flex-area-alignment .banner-area-first-about {
     height: auto;
-    width: 100%;
-    /* padding: 0px !important; */
-    padding: 4px 8px 7px 8px !important;
   }
   .anchors {
     padding-bottom: 66px;
@@ -187,6 +184,10 @@ input {
 .form-body {
   padding: 8px 10px 8px 12px;
 }
+.slideshow-container {
+  width: 90%;
+}
+
 /*secondary color*/
 /*article page colors*/
 /*banner color scheme*/
@@ -578,7 +579,7 @@ header {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1s;
   animation-name: fade;
-  animation-duration: 1s;
+  animation-duration: 7s;
 }
 
 @-webkit-keyframes fade {
@@ -598,7 +599,7 @@ header {
   }
 }
 .header-area {
-  padding: 1px 3px 6px 36px;
+  padding: 1px 15px 6px 15px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
