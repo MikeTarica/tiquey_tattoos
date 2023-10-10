@@ -12,7 +12,7 @@ ul,
 ol,
 a,
 button {
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: Helvetica, sans-serif, arial;
 }
 
@@ -207,9 +207,6 @@ img {
   width: 100%;
 }
 
-nav {
-  background-color: rgba(157, 164, 188, 0.3529411765);
-}
 nav ul {
   margin: 0;
   padding: 0;
@@ -225,7 +222,7 @@ nav a {
 }
 
 body {
-  background-color: #4e4e50;
+  background-color: #fcfcfc;
   margin: 0;
 }
 
@@ -252,7 +249,6 @@ button :hover {
   font-family: "helvetica neue", helvetica, sans-serif;
   letter-spacing: 1px;
   border-radius: 10px;
-  padding: 3px 10px;
   cursor: pointer;
 }
 
@@ -262,7 +258,7 @@ a {
 }
 a :hover {
   text-decoration: none;
-  background-color: #3500D3;
+  background-color: #fdc103;
 }
 
 .navbar {
@@ -293,7 +289,7 @@ a :hover {
   font-size: 32px;
   border: none;
   outline: none;
-  color: white;
+  color: #000000;
   padding: 14px 16px;
   background-color: inherit;
   /* Important for vertical align on mobile phones */
@@ -364,7 +360,9 @@ a :hover {
   justify-content: space-evenly;
   align-items: stretch;
   padding-bottom: 36px;
-  margin: 67px;
+  margin: 20px 0 32px 0px;
+  padding: 9px 0 10px 0;
+  background-color: #fdc103;
 }
 .flex-area-alignment .banner-area-first-about {
   display: flex;
@@ -397,6 +395,7 @@ a :hover {
 .background-color .flex-area-alignment {
   padding-left: 2px;
   padding-right: 2px;
+  background-color: #fdc103;
 }
 .background-color .flex-area-alignment .banner-area-first-about {
   width: 100%;
@@ -440,8 +439,16 @@ a :hover {
 }
 
 .hero-title {
-  /*  padding-bottom: 3%; */
   padding: 8px 7px 0px 21px;
+  background-color: #1d77c8;
+  padding: 28px 50px 25px 50px;
+  text-align: center;
+}
+.hero-title h1 {
+  color: #ffffff;
+}
+.hero-title p {
+  color: #ffffff;
 }
 
 header {
