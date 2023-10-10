@@ -12,6 +12,7 @@ ul,
 ol,
 a,
 button {
+  font-family: myFirstFont;
   color: rgb(0, 0, 0);
   font-family: Helvetica, sans-serif, arial;
 }
@@ -258,7 +259,7 @@ a {
 }
 a :hover {
   text-decoration: none;
-  background-color: #fdc103;
+  background-color: #ffc400;
 }
 
 .navbar {
@@ -266,10 +267,10 @@ a :hover {
   font-family: Helvetica, sans-serif, arial;
   padding: 1px 13px 0px 18px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-wrap: wrap;
-  align-content: space-between;
-  align-items: flex-start;
+  align-content: space-around;
+  align-items: baseline;
 }
 .navbar a {
   float: left;
@@ -395,7 +396,7 @@ a :hover {
 .background-color .flex-area-alignment {
   padding-left: 2px;
   padding-right: 2px;
-  background-color: #fdc103;
+  background-color: #ffc400;
 }
 .background-color .flex-area-alignment .banner-area-first-about {
   width: 100%;
@@ -440,9 +441,9 @@ a :hover {
 
 .hero-title {
   padding: 8px 7px 0px 21px;
-  background-color: #1d77c8;
+  background-color: #fa2c21;
   padding: 28px 50px 25px 50px;
-  text-align: center;
+  text-align: left;
 }
 .hero-title h1 {
   color: #ffffff;
