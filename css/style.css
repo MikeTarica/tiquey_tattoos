@@ -1,4 +1,9 @@
 /* Fonts */
+@font-face {
+  font-family: "DancingScript";
+  src: url("/Dev_Web_Portfolio/src/fonts/DancingScript-VariableFont_wght.woff");
+  src: url("/Dev_Web_Portfolio/src/fonts/DancingScript-Regular.woff");
+}
 h1,
 h2,
 h3,
@@ -6,15 +11,14 @@ h4,
 h5,
 h6,
 p,
-qoute,
+.qoute,
 li,
 ul,
 ol,
 a,
 button {
-  font-family: myFirstFont;
   color: rgb(0, 0, 0);
-  font-family: Helvetica, sans-serif, arial;
+  font-family: "DancingScript", Helvetica, sans-serif, arial;
 }
 
 h1 {
