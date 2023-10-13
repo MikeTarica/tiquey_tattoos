@@ -26,141 +26,144 @@ $mtwo-large: 1000px;
     }
 
     .banner {
-        padding: 0px 12px 0 12px;
+        padding: 0px 2px 0 2px;
     }
+}
 
-    h1 {
-        font-size: 28px;
+h1 {
+    font-size: 28px;
 
-        &:hover {
-            color: white;
-        }
-    }
-
-    h2 {
-        font-size: 24px;
-
-        &:hover {
-            color: white;
-        }
-    }
-
-    h3 {
-        font-size: 22px;
-
-        &:hover {
-            color: white;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        &:hover {
-            color: white;
-        }
-    }
-
-    h5 {
-        font-size: 17px;
-
-        &:hover {
-            color: white;
-        }
-    }
-
-    h6 {
-        font-size: 11px;
-
-        &:hover {
-            color: white;
-        }
-    }
-
-    p {
-        font-size: 18px;
-        padding-bottom: 8px;
-
-        &:hover {
-            color: white;
-        }
-    }
-
-    quote {
-        font-size: 26px;
-    }
-
-    .dropdown .dropbtn {
-        font-size: 15px;
-        border: none;
-        outline: none;
+    &:hover {
         color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        margin: 0;
+    }
+}
+
+h2 {
+    font-size: 24px;
+
+    &:hover {
+        color: white;
+    }
+}
+
+h3 {
+    font-size: 22px;
+
+    &:hover {
+        color: white;
+    }
+}
+
+h4 {
+    font-size: 20px;
+
+    &:hover {
+        color: white;
+    }
+}
+
+h5 {
+    font-size: 17px;
+
+    &:hover {
+        color: white;
+    }
+}
+
+h6 {
+    font-size: 11px;
+
+    &:hover {
+        color: white;
+    }
+}
+
+p {
+    font-size: 18px;
+    padding-bottom: 8px;
+
+    &:hover {
+        color: rgb(4, 0, 0);
+    }
+}
+
+quote {
+    font-size: 26px;
+}
+
+.dropdown .dropbtn {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.hero-title {
+
+    .intro-copy {
+        padding-top: 12px;
+    }
+}
+
+.flex-area-alignment {
+
+
+    padding-bottom: 36px;
+
+
+
+    .banner-area-first-about {
+
+        padding: 20px;
     }
 
-    img {
-        width: 100%;
+    .banner-area-second-art {
+        padding: 20px;
     }
+}
 
-    .flex-area-alignment {
-        padding-bottom: 31px;
-        display: flex;
-        flex-direction: column;
+.image-layer {
+    position: relative;
+    top: 0px;
+    z-index: -1;
+    left: 0px;
 
-        .banner-area-first-about {
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: column;
-            padding-bottom: 20px;
+}
+
+
+
+.anchors {
+    padding-bottom: 66px;
+    margin-top: -26% !important;
+}
+
+// ANCHOR Floating Menu
+
+.floating-mnu {
+    font-size: 7px !important;
+    height: 1px !important;
+    margin-top: -5px !important;
+    text-align: center !important;
+
+
+    a {
+        font-size: 0.2em;
+        display: block;
+
+
+        a:hover {
+            font-size: 0.1em;
+
         }
     }
 
-    .image-layer {
-        position: relative;
-        top: 0px;
-        z-index: -1;
-        left: 0px;
-
-    }
-
-    .flex-area-alignment {
-        margin: 0px !important;
-
-        .banner-area-first-about {
-            height: auto;
-
-
-        }
-    }
-
-    .anchors {
-        padding-bottom: 66px;
-        margin-top: -26% !important;
-    }
-
-    // ANCHOR Floating Menu
-
-    .floating-mnu {
-        font-size: 7px !important;
-        height: 1px !important;
-        margin-top: -5px !important;
-        text-align: center !important;
-
-
-        a {
-            font-size: 0.2em;
-            display: block;
-
-
-            a:hover {
-                font-size: 0.1em;
-
-            }
-        }
-
-    }
 }
 
 .navbar {

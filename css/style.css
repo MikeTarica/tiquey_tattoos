@@ -1,8 +1,7 @@
 /* Fonts */
 @font-face {
   font-family: "DancingScript";
-  src: url("/Dev_Web_Portfolio/src/fonts/DancingScript-VariableFont_wght.woff");
-  src: url("/Dev_Web_Portfolio/src/fonts/DancingScript-Regular.woff");
+  src: url("../../src/fonts/DancingScript/DancingScript-Bold.woff");
 }
 h1,
 h2,
@@ -19,6 +18,7 @@ a,
 button {
   color: rgb(0, 0, 0);
   font-family: "DancingScript", Helvetica, sans-serif, arial;
+  color: black;
 }
 
 h1 {
@@ -81,107 +81,117 @@ input {
     margin: 5px 1px 11px 1px !important;
   }
   .banner {
-    padding: 0px 12px 0 12px;
-  }
-  h1 {
-    font-size: 28px;
-  }
-  h1:hover {
-    color: white;
-  }
-  h2 {
-    font-size: 24px;
-  }
-  h2:hover {
-    color: white;
-  }
-  h3 {
-    font-size: 22px;
-  }
-  h3:hover {
-    color: white;
-  }
-  h4 {
-    font-size: 20px;
-  }
-  h4:hover {
-    color: white;
-  }
-  h5 {
-    font-size: 17px;
-  }
-  h5:hover {
-    color: white;
-  }
-  h6 {
-    font-size: 11px;
-  }
-  h6:hover {
-    color: white;
-  }
-  p {
-    font-size: 18px;
-    padding-bottom: 8px;
-  }
-  p:hover {
-    color: white;
-  }
-  quote {
-    font-size: 26px;
-  }
-  .dropdown .dropbtn {
-    font-size: 15px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    margin: 0;
-  }
-  img {
-    width: 100%;
-  }
-  .flex-area-alignment {
-    padding-bottom: 31px;
-    display: flex;
-    flex-direction: column;
-  }
-  .flex-area-alignment .banner-area-first-about {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding-bottom: 20px;
-  }
-  .image-layer {
-    position: relative;
-    top: 0px;
-    z-index: -1;
-    left: 0px;
-  }
-  .flex-area-alignment {
-    margin: 0px !important;
-  }
-  .flex-area-alignment .banner-area-first-about {
-    height: auto;
-  }
-  .anchors {
-    padding-bottom: 66px;
-    margin-top: -26% !important;
-  }
-  .floating-mnu {
-    font-size: 7px !important;
-    height: 1px !important;
-    margin-top: -5px !important;
-    text-align: center !important;
-  }
-  .floating-mnu a {
-    font-size: 0.2em;
-    display: block;
-  }
-  .floating-mnu a a:hover {
-    font-size: 0.1em;
+    padding: 0px 2px 0 2px;
   }
 }
+h1 {
+  font-size: 28px;
+}
+h1:hover {
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+}
+h2:hover {
+  color: white;
+}
+
+h3 {
+  font-size: 22px;
+}
+h3:hover {
+  color: white;
+}
+
+h4 {
+  font-size: 20px;
+}
+h4:hover {
+  color: white;
+}
+
+h5 {
+  font-size: 17px;
+}
+h5:hover {
+  color: white;
+}
+
+h6 {
+  font-size: 11px;
+}
+h6:hover {
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+p:hover {
+  color: rgb(4, 0, 0);
+}
+
+quote {
+  font-size: 26px;
+}
+
+.dropdown .dropbtn {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.hero-title .intro-copy {
+  padding-top: 12px;
+}
+
+.flex-area-alignment {
+  padding-bottom: 36px;
+}
+.flex-area-alignment .banner-area-first-about {
+  padding: 20px;
+}
+.flex-area-alignment .banner-area-second-art {
+  padding: 20px;
+}
+
+.image-layer {
+  position: relative;
+  top: 0px;
+  z-index: -1;
+  left: 0px;
+}
+
+.anchors {
+  padding-bottom: 66px;
+  margin-top: -26% !important;
+}
+
+.floating-mnu {
+  font-size: 7px !important;
+  height: 1px !important;
+  margin-top: -5px !important;
+  text-align: center !important;
+}
+.floating-mnu a {
+  font-size: 0.2em;
+  display: block;
+}
+.floating-mnu a a:hover {
+  font-size: 0.1em;
+}
+
 .navbar {
   font-size: 20%;
 }
@@ -252,7 +262,6 @@ button :hover {
 
 .button-nav {
   font-family: "helvetica neue", helvetica, sans-serif;
-  letter-spacing: 1px;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -377,6 +386,8 @@ a :hover {
   background-image: linear-gradient(to bottom right, rgba(255, 244, 164, 0.573) 0%, rgba(255, 232, 57, 0.686) 50%, rgba(232, 125, 2, 0.824) 100%);
   padding: 1px 13px 5px 13px;
   border-radius: 11px;
+  width: 100%;
+  height: auto;
 }
 .flex-area-alignment .banner-area-second-art {
   display: flex;
@@ -397,27 +408,11 @@ a :hover {
 .background-color {
   background-color: #baa7ad;
 }
-.background-color .flex-area-alignment {
-  padding-left: 2px;
-  padding-right: 2px;
-  background-color: #ffc400;
-}
-.background-color .flex-area-alignment .banner-area-first-about {
+.background-color .banner-area-second-art {
   width: 100%;
   height: auto;
 }
-.background-color .flex-area-alignment .banner-area-first-about img {
-  margin-left: 4%;
-  position: relative;
-  width: 74%;
-  height: auto;
-  z-index: -1;
-}
-.background-color .flex-area-alignment .banner-area-second-art {
-  width: 100%;
-  height: auto;
-}
-.background-color .flex-area-alignment .banner-area-second-art img {
+.background-color .banner-area-second-art img {
   margin-left: 4%;
   position: relative;
   width: 74%;
@@ -435,16 +430,7 @@ a :hover {
   margin: 10px 9px 6px 12px;
 }
 
-.para-over-lap {
-  position: relative;
-  top: -91px;
-  left: 9px;
-  z-index: 11;
-  padding: 4px 8px 0px 4px;
-}
-
 .hero-title {
-  padding: 8px 7px 0px 21px;
   background-color: #fa2c21;
   padding: 28px 50px 25px 50px;
   text-align: left;

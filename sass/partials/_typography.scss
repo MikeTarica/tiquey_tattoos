@@ -1,17 +1,18 @@
 /* Fonts */
 $font-sizing-paragraphs: 1.2rem;
-$font-stack: "DancingScript",
+$font-stack: 'DancingScript',
 Helvetica,
 sans-serif,
 arial;
 $font-color-default: rgb(0, 0, 0);
 $fontcolor-hover: red;
+$fontcolor-static: black;
 
 
 @font-face {
     font-family: 'DancingScript';
-    src: url('/Dev_Web_Portfolio/src/fonts/DancingScript-VariableFont_wght.woff');
-    src: url('/Dev_Web_Portfolio/src/fonts/DancingScript-Regular.woff');
+    src: url('../../src/fonts/DancingScript/DancingScript-Bold.woff');
+
 }
 
 body {}
@@ -32,6 +33,7 @@ button {
 
     color: $font-color-default;
     font-family: $font-stack;
+    color: $fontcolor-static;
 
 }
 
