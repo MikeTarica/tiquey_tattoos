@@ -1,7 +1,7 @@
 $small: 700px;
 $medium: 900px;
-$large: 1200px;
-$x-large: 2500px;
+$large: 1920px;
+$x-large: 2000px;
 
 // Tablet
 $t-small: 400px;
@@ -18,12 +18,9 @@ $mtwo-small: 500px;
 $mtwo-medium: 600px;
 $mtwo-large: 1000px;
 
-// Mobile ultra
-@media screen and (min-width: $m-small) and (max-width: $m-medium) {
-    body {
+// Mobile ultra {
+@media (min-width: $m-small) {
 
-        margin: 5px 1px 11px 1px !important;
-    }
 
     .banner {
         padding: 0px 2px 0 2px;
@@ -113,20 +110,9 @@ img {
 }
 
 .flex-area-alignment {
+    .banner-area-first-about {}
 
-
-    padding-bottom: 36px;
-
-
-
-    .banner-area-first-about {
-
-        padding: 20px;
-    }
-
-    .banner-area-second-art {
-        padding: 20px;
-    }
+    .banner-area-second-art {}
 }
 
 .image-layer {

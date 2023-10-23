@@ -76,10 +76,7 @@ input {
   font-size: 25px;
 }
 
-@media screen and (min-width: 380px) and (max-width: 590px) {
-  body {
-    margin: 5px 1px 11px 1px !important;
-  }
+@media (min-width: 380px) {
   .banner {
     padding: 0px 2px 0 2px;
   }
@@ -154,16 +151,6 @@ img {
 
 .hero-title .intro-copy {
   padding-top: 12px;
-}
-
-.flex-area-alignment {
-  padding-bottom: 36px;
-}
-.flex-area-alignment .banner-area-first-about {
-  padding: 20px;
-}
-.flex-area-alignment .banner-area-second-art {
-  padding: 20px;
 }
 
 .image-layer {
@@ -363,40 +350,46 @@ a :hover {
   flex: 1 auto;
   padding-bottom: 1px;
 }
-.dropdown:hover .dropdown-content .nested {
-  display: contents;
-}
 
 .flex-area-alignment {
   display: flex;
-  flex-wrap: nowrap;
-  align-content: space-around;
-  justify-content: space-evenly;
-  align-items: stretch;
-  padding-bottom: 36px;
-  margin: 20px 0 32px 0px;
-  padding: 9px 0 10px 0;
-  background-color: #fdc103;
+  justify-content: space-around;
+  /* Align flex items along the main axis */
+  align-items: center;
+  /* Align flex items along the cross axis */
+  align-content: center;
+  /* Align flex lines in multi-line flex containers */
+  flex-wrap: wrap;
+  /* Wrap flex items onto multiple lines if needed */
+  background-color: orange;
 }
 .flex-area-alignment .banner-area-first-about {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  margin: 1%;
-  background-image: linear-gradient(to bottom right, rgba(255, 244, 164, 0.573) 0%, rgba(255, 232, 57, 0.686) 50%, rgba(232, 125, 2, 0.824) 100%);
-  padding: 1px 13px 5px 13px;
-  border-radius: 11px;
-  width: 100%;
-  height: auto;
+  flex: 1;
+  background-image: linear-gradient(to bottom, rgba(2, 0, 36, 0) 0%, rgba(255, 255, 255, 0.898) 56%, rgba(255, 42, 0, 0.513) 100%);
 }
 .flex-area-alignment .banner-area-second-art {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  margin: 1%;
   background-image: linear-gradient(to bottom right, rgba(255, 244, 164, 0.573) 0%, rgba(255, 232, 57, 0.686) 50%, rgba(232, 125, 2, 0.824) 100%);
-  padding: 1px 13px 5px 13px;
-  border-radius: 11px;
+}
+.flex-area-alignment .carousel {
+  display: flex;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  width: 32%;
+  align-content: center;
+}
+.flex-area-alignment .carousel .carousel-item {
+  flex: 0 0 auto;
+  width: 100%;
+  /* You can set the width to any value you prefer */
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.flex-area-alignment img {
+  padding: 12px 12px 12px 12px;
+  width: 100%;
+  height: auto;
 }
 
 .slideshow-container {
@@ -407,17 +400,6 @@ a :hover {
 
 .background-color {
   background-color: #baa7ad;
-}
-.background-color .banner-area-second-art {
-  width: 100%;
-  height: auto;
-}
-.background-color .banner-area-second-art img {
-  margin-left: 4%;
-  position: relative;
-  width: 74%;
-  height: auto;
-  z-index: -1;
 }
 
 .head-one,

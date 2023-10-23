@@ -28,6 +28,38 @@ function SlideShow(n) {
   console.log(SlideShow);
 }
 
+
+//carousel
+const carousel = document.querySelector(".carousel");
+let isDown = false;
+let startX;
+let scrollLeft;
+
+carousel.addEventListener("mousedown", e => {
+  isDown = true;
+  startX = e.pageX - carousel.offsetLeft;
+  scrollLeft = carousel.scrollLeft;
+});
+
+carousel.addEventListener("mouseleave", () => {
+  isDown = false;
+});
+
+carousel.addEventListener("mouseup", () => {
+  isDown = false;
+});
+
+carousel.addEventListener("mousemove", e => {
+  if (!isDown) return;
+  e.preventDefault();
+  const x = e.pageX - carousel.offsetLeft;
+  const walk = (x - startX) * 3; // Scroll 3 times as fast as the mouse
+  carousel.scrollLeft = scrollLeft - walk;
+});
+
+
+
+// Unusable script 
 // let userName = "Michael and Michelle";
 // let userPref = "waterbaording";
 

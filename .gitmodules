@@ -1,0 +1,3 @@
+[submodule "Sub_mod"]
+	path = Sub_mod
+	url = git@github.com:MikeTarica/tiquey_tattoos.git
